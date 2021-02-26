@@ -1,0 +1,21 @@
+
+body{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .formdiv{
+    border: 2px solid purple;
+    width: 40%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  #registerform{
+    margin-top: 150px;
+  }
+  #input{
+    margin-bottom: 10px;
+  }
