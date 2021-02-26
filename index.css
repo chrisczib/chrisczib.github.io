@@ -3,8 +3,6 @@ body{
     border: 1px solid black;
     text-align: center;
     vertical-align: middle;
-    background-color: aquamarine;
-    opacity: 70%;
   }
   .formdiv{
     border: 2px solid purple;
@@ -14,6 +12,8 @@ body{
     margin-right: auto;
     margin-top: 150px;
     margin-bottom: 150px;
+    background-color: aquamarine;
+    
   }
   #registerform{
     margin-top: 150px;
