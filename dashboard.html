@@ -60,6 +60,9 @@ body {
 .topnav .search-container button:hover {
   background: #ccc;
 }
+#searchbar{
+    width: 60%;
+}
 
 @media screen and (max-width: 600px) {
   .topnav .search-container {
@@ -87,7 +90,7 @@ body {
   <a href="#contact">Contact</a>
   <div class="search-container">
     <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
+      <input id="searchbar" type="text" placeholder="Search.." name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
   </div>
