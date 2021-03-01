@@ -31,7 +31,9 @@ body {
 }
 
 .topnav .search-container {
-  float: right;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .topnav input[type=text] {
@@ -56,7 +58,7 @@ body {
   background: #ccc;
 }
 #searchbar{
-    width: 60%;
+    width: 80%;
 }
 
 @media screen and (max-width: 600px) {
