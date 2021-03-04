@@ -67,7 +67,11 @@ body {
   text-align: center;
   padding-right: 25px;
 
-
+  
+}
+.card{
+  border: 1px solid black;
+  width: 25%
   
 }
 #searchbar{
@@ -91,3 +95,4 @@ body {
     border: 1px solid #ccc;  
   }
 }
+
