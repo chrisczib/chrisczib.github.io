@@ -3,17 +3,15 @@ body{
     border: 1px solid black;
     text-align: center;
     vertical-align: middle;
-    background-color: magenta;
   }
   .formdiv{
-    border: 2px solid purple;
-    width: 40%;
+    
+    width: 30%;
     height: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
     margin-bottom: 150px;
-    background-color: aquamarine;
 
   }
   #registerform{
@@ -22,3 +20,16 @@ body{
   #input{
     margin-bottom: 10px;
   }
+#abovetext{
+    color: slategray;
+    text-align: left;
+    
+  }
+.emailInput{
+  padding-left: 15px;
+}
+
+.toolTitle{
+  text-align: center;
+  font-size: 70px;
+}
