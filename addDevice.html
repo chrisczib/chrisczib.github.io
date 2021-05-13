@@ -18,14 +18,41 @@
       </form>
     </div>
   </div>
+
+
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+
+  <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+<input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+<input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+
+
 <div class="deviceAddForm">
     <form action="" method="post">
-        <div>Details <input type="text" name="Details" id="textFieldInput" placeholder="Details"></div>
-        <div>Manufacturer <input type="text" name="Manufacturer" id="textFieldInput" placeholder="Manufacturer"></div>
-        
-        <div>
+        <div class="mb-3">
+          <label for="Deatils" class="form-label"></label> Details 
+          <input class="form-control" type="text" placeholder="Details" aria-label="default input example">
 
+        
+        
+        
+        
+        
         </div>
+
+
+
+
+
+        <div>Manufacturer <input type="text" name="Manufacturer" id="textFieldInput" placeholder="Manufacturer"></div>
         <div> Type <input type="text" name="Type" id="textFieldInput" placeholder="Type"></div>
         <div> Model <input type="text" name="Model" id="textFieldInput" placeholder="Model"></div>
         <div> OS Version <input type="text" name="OSVersion" id="textFieldInput" placeholder="OS Version"></div>
@@ -37,7 +64,7 @@
         <div> Extras <input type="text" name="Extras" id="textFieldInput" placeholder="Extras"></div>
         <div> Notice <input type="text" name="Notice" id="textFieldInput" placeholder="Notice"></div>
     </form>
-    <button type="submit">Add Device</button>
+    <button type="submit" onclick="addDevice()">Add Device</button>
 
 </div>
 
