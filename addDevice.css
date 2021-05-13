@@ -1,0 +1,24 @@
+.deviceAddForm{
+    border: solid 2px;
+    border-color: slategray;
+    border-spacing: 5px;
+    border-radius: 10px;
+    width: 35%;
+    height: 60%;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 1rem;    
+  
+}
+#textFieldInput{
+    margin-left: 10px;
+   
+}
+label{
+    display: inline-block;
+}
+
+.AddDeviceButton{
+    margin-left: auto;
+    margin-right: auto;
+}
