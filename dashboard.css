@@ -15,7 +15,7 @@
 
 }
 .card-container{
-  margin-top: 5%;
+  margin-top: 6%;
   display: flex;
   height: 300px;
   grid-template-columns: max-content(4);
@@ -36,7 +36,10 @@
 .deviceAddForm{
   flex-direction: column;
 }
-
+.UserHead{
+  font-size: 28px;
+  margin: 2px;
+}
 
 a, a:hover, a:focus, a:active {
   text-decoration: none;
